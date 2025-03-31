@@ -35,7 +35,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 connectDB();
 
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['https://mern-auth-client-a4s6.onrender.com']
 
 app.use(express.json({ limit: "10mb" })); // ✅ Ensure JSON parsing
 app.use(express.urlencoded({ extended: true })); // ✅ Parse URL-encoded data
