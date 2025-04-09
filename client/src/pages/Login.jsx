@@ -26,8 +26,8 @@ const Login = () => {
              if(data.success){
                 setIsLoggedin(true)
                   getUserData()
-                // navigate('/')
-                 window.location.href='https://verdant-nougat-c160ab.netlify.app/';
+                navigate('/')
+                 // window.location.href='https://verdant-nougat-c160ab.netlify.app/';
              }else{
                 toast.error(data.message);
              }
